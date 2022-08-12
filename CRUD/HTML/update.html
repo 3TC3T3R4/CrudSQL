@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../JAVASCRIPT/app.js"></script>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <FORM method="post">
+        <LABEL>ingresa el ID del contacto que quieres actualizar </LABEL>
+
+        <INPUT type="number" id="idcontact">
+        <BR>
+        <BR>
+        <LABEL for="name">Nombre completo </LABEL>
+
+        <INPUT type="text" id="namenew">
+        <BR>
+        <BR>
+        <LABEL for="name">Telefono </LABEL>
+        <INPUT type="number" id="telefononew">
+        <BR>
+        <BR>
+        <BR>
+        <LABEL for="name">Correo electronico</LABEL>
+        <INPUT type="email" id="emailnew">
+        <BR>
+        <BR>
+        <LABEL for="name">fecha nacimiento</LABEL>
+        <INPUT type="date" id="datenew">
+        <BR>
+        <BR>
+        <BR>
+        <LABEL for="name">estado</LABEL>
+        <INPUT type="number" id="estadonew">
+        <BR>
+        <button type="button" onclick="updatecontact()">Actualizar contacto</button>
+
+        <a href="./index.html">VOLVER ATRAS</a>
+    </FORM>
+
+
+
+</body>
+
+</html>

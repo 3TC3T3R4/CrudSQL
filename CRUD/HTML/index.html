@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="../JAVASCRIPT/app.js"></script>
+    <link rel="stylesheet" href="../CSS/style.css">
+
+    <title>GAME</title>
+</head>
+
+<body>
+
+    <FORM method="post">
+
+        <LABEL for="name">Nombre completo </LABEL>
+
+        <INPUT type="text" id="name" name="name">
+        <BR>
+        <BR>
+        <LABEL for="name">Telefono </LABEL>
+        <INPUT type="number" id="telefono">
+        <BR>
+        <BR>
+        <BR>
+        <LABEL for="name">Correo electronico</LABEL>
+        <INPUT type="email" id="email">
+        <BR>
+        <BR>
+        <LABEL for="name">fecha nacimiento</LABEL>
+        <INPUT type="date" id="date">
+        <BR>
+        <LABEL for="name">estado</LABEL>
+        <INPUT type="number" id="estado" placeholder="TIENE QUE SER 1 PARA PODER ALMACENAR EL COCTACTO">
+        <BR>
+        <BR>
+        <button type="button" onclick="getcontacts()">Consultar contactos</button>
+        <BR>
+        <BR>
+        <button type="button" onclick="registration()">Registrar contacto</button>
+        <BR>
+        <BR>
+        <a href="./update.html">Actualizar contacto </a>
+        <BR>
+        <BR>
+        <BR>
+
+        <a href="./delete.html">Eliminar contacto </a>
+        <BR>
+        <BR>
+        <BR>
+        <a href="./deletelogic.html">Borrado logico </a>
+        <BR>
+        <BR>
+        <br>
+        <label id="labelcontactos" class="labelcontactos"></label>
+
+
+
+        <br>
+        <br>
+
+    </FORM>
+
+
+</body>
+
+</html>
